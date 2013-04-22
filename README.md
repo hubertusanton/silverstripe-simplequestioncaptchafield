@@ -1,4 +1,4 @@
-SilverStripe SendFriend Module
+SilverStripe Simple question captcha field
 ========================================
 
 Maintainer Contacts
