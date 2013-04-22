@@ -1,0 +1,3 @@
+nl_NL:
+  SimpleQuestionCaptchaField:
+    VALIDATION: Voer a.u.b. het juiste antwoord in.
