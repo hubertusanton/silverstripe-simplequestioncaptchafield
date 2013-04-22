@@ -32,11 +32,20 @@ examples of usage:
 
 `$obvious_questions = array('what is the answer of 1 + 1?' => '2', 'What is the first letter of the alphabet?' => 'a', 'What is the color of the sky?' => 'blue');`
 
-`$test_field = new SimpleQuestionCaptchaField('SimpleCaptcha', null, '', $obvious_questions);`
+`SimpleQuestionCaptchaField::create('SimpleCaptcha', null, '', $obvious_questions);`
 
 or
 
-`$test_field = new SimpleQuestionCaptchaField('SimpleCaptcha', null, '');`
+`SimpleQuestionCaptchaField::create('SimpleCaptcha', null, '');`
+
+or a simple one which i like
+
+`SimpleQuestionCaptchaField::create('SimpleCaptcha', null, '', array(
+	'Type the number <strong>TWO</strong> in numbers.' => '2',
+	'Type the number <strong>THREE</strong> in numbers.' => '3',
+	)
+)`
+
 
 Help 
 --------------

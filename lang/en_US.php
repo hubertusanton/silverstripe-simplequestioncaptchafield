@@ -2,4 +2,4 @@
 
 global $lang;
 
-$lang['nl_NL']['SimpleQuestionCaptchaField']['VALIDATION'] = 'Vul hier het juiste antwoord in.';
+$lang['en_US']['SimpleQuestionCaptchaField']['VALIDATION'] = 'Please enter the right answer to prove you are human.';
