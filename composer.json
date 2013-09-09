@@ -1,0 +1,23 @@
+{
+	"name": "hubertusanton/silverstripe-simplequestioncaptchafield",
+	"description": "SilverStripe Simple question captcha field",
+	"type": "silverstripe-simplequestioncaptchafield",
+	"homepage": "http://github.com/hubertusanton/silverstripe-simplequestioncaptchafield",
+	"keywords": ["silverstripe", "captcha"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Bart van Irsel",
+			"email": "bart@30.nl"
+		}
+	],
+	"support": {
+		"issues": "http://github.com/hubertusanton/silverstripe-simplequestioncaptchafield/issues"
+	},
+	"require": {
+		"silverstripe/framework": "3.*"
+	},
+	"extra": {
+		"installer-name": "simplequestioncaptchafield"
+	}
+}
