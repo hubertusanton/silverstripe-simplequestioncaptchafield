@@ -1,7 +1,7 @@
 {
 	"name": "hubertusanton/silverstripe-simplequestioncaptchafield",
 	"description": "SilverStripe Simple question captcha field",
-	"type": "silverstripe-simplequestioncaptchafield",
+	"type": "silverstripe-module",
 	"homepage": "http://github.com/hubertusanton/silverstripe-simplequestioncaptchafield",
 	"keywords": ["silverstripe", "captcha"],
 	"license": "BSD-3-Clause",
