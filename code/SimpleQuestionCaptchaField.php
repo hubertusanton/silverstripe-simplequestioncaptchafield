@@ -32,7 +32,6 @@ class SimpleQuestionCaptchaField extends FormField {
         
         if(Session::get('SimpleQuestionCaptchaField')) {
             $question    = trim(Session::get('SimpleQuestionCaptchaField'));
-            Session::clear('SimpleQuestionCaptchaField');
         }
         else {
             return false;
@@ -49,7 +48,9 @@ class SimpleQuestionCaptchaField extends FormField {
 				false
 			);
 			return false;            
-        }        
+        } else {
+            Session::clear('SimpleQuestionCaptchaField');
+        }       
 		return true;
 	}
 }
